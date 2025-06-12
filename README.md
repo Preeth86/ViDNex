@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ## Installation
 
-###   Download  NORD and keep it in the drive where P3_ALIB_MASTER is present. The  NORD  file contains all executable files related to the proposed and baseline approaches. <br />
+###   Download  ViDNex and keep it in the drive. The ViDNex file contains all executable files related to the proposed and baseline approaches. <br />
 
 - manager.py -> The Main file related to the ViDNex broker.<br />
 - Ryu.py -> The Main file related to the SDN-Ryu controller.<br />
