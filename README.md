@@ -1,5 +1,9 @@
 # ViDNex: Ranking-Based Virtual Data Center Embedding for Joint Load Balancing and Energy Efficiency in Next Generation Infrastructure
 
+## Overview
+
+**ViDNex** is an advanced **Virtual Data Center Embedding (VDCE)** framework that leverages **ranking-based** methods to optimize **load balancing** and **energy minimization** in next-generation infrastructures. It incorporates **AHP** (Analytic Hierarchy Process) and **VIKOR** (VlseKriterijumska Optimizacija I Kompromisno Resenje) ranking techniques for **VM-to-host** assignment, alongside system-level parameters such as **CRB utilization**, **energy consumption**, and **load balance**.
+
 ## Execution Environment:
 
 **Operating System**: 64-bit Ubuntu 22.04.5 LTS.<br />
@@ -16,10 +20,6 @@ Mininet for PN & VDCR topology generation.<br />
 Introduction about VNE problem can be found in below link:<br />
 https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
-## Overview
-
-**ViDNex** is an advanced **Virtual Data Center Embedding (VDCE)** framework that leverages **ranking-based** methods to optimize **load balancing** and **energy minimization** in next-generation infrastructures. It incorporates **AHP** (Analytic Hierarchy Process) and **VIKOR** (VlseKriterijumska Optimizacija I Kompromisno Resenje) ranking techniques for **VM-to-host** assignment, alongside system-level parameters such as **CRB utilization**, **energy consumption**, and **load balance**.
-
 ## Features
 
 - **Ranking-based Embedding**: Utilizes **AHP** and **VIKOR** for intelligent VM-to-host assignment, considering system-level parameters.
@@ -31,8 +31,32 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ## Installation
 
-To use **ViDNex**, simply clone the repository:
+###   Download  NORD and keep it in the drive where P3_ALIB_MASTER is present. The  NORD  file contains all executable files related to the proposed and baseline approaches. <br />
 
-```bash
-git clone https://github.com/Preeth86/ViDNex.git
-cd ViDNex
+- manager.py -> The Main file related to the ViDNex broker.<br />
+- Ryu.py -> The Main file related to the SDN-Ryu controller.<br />
+- SN.py -> The Main file related to the Physical Network topology generation. <br /> 
+- VNR.py -> The Main file related to the VDCR topology generation. <br />
+- ViDNex.py -> The Main file related to the proposed ViDNex approach. <br />
+- CEVNE.py -> The Main file related to the CEVNE baseline approach. <br />
+- DROI.py -> The Main file related to the DROI baseline approach. <br />
+- First_Fit.py -> The Main file related to the First Fit baseline approach. <br />
+- LitE.py -> The Main file related to the LitE baseline approach. <br />
+- SCA-R.py -> The Main file related to the SCA-R baseline approach. <br />
+
+
+## Contributors
+- Mr. N Preetham <br />
+https://scholar.google.com/citations?user=z_TrEuIAAAAJ&hl=en&oi=ao <br />
+- Dr. Sourav Kanti Addya <br />
+https://souravkaddya.in/ <br />
+- Mr. Keerthan Kumar T G<br />
+https://scholar.google.com/citations?user=fW7bzK8AAAAJ&hl=en <br />
+- Dr Saumya Hegde <br />
+https://scholar.google.co.in/citations?user=WAyKHHwAAAAJ&hl=en <br />
+
+
+## Contact
+If you have any questions, simply write a mail to  preetham(DOT)nagaraju(AT)gmail(DOT)com.
+
+
