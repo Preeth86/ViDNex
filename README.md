@@ -1,5 +1,28 @@
 # ViDNex: Ranking-Based Virtual Data Center Embedding for Joint Load Balancing and Energy Efficiency in Next Generation Infrastructure
 
+## Execution Environment:
+
+**Operating System**: 64-bit Ubuntu 22.04.5 LTS.<br />
+**Host**: Dell PowerEdge R750 server.<br />
+**Physical Memory (RAM)**: 128 GB.<br />
+**CPU**: Intel Xeon Gold 5317 @ 3.00 GHz.<br />
+**Python Version**: Python 3.7 & above.<br />
+**Tools and Libraries**: Mininet, SDN-Ryu, OpenFlow protocol.<br />
+
+
+## Execution Environment:
+
+Operation System: Ubuntu 22.04.5 LTS, 64bit.<br />
+Physical Memory (RAM) 128.0 GB.<br />
+
+### Prerequisites
+
+Python 3.9.<br />
+PyCharm Community Edition 2021.2. <br />
+Alib utility for VNE simulation.<br />
+Introduction about VNE prblem can be found in below link:<br />
+https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
+
 ## Overview
 
 **ViDNex** is an advanced **Virtual Data Center Embedding (VDCE)** framework that leverages **ranking-based** methods to optimize **load balancing** and **energy minimization** in next-generation infrastructures. It incorporates **AHP** (Analytic Hierarchy Process) and **VIKOR** (VlseKriterijumska Optimizacija I Kompromisno Resenje) ranking techniques for **VM-to-host** assignment, alongside system-level parameters such as **CRB utilization**, **energy consumption**, and **load balance**.
