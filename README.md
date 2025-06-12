@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 https://scholar.google.com/citations?user=z_TrEuIAAAAJ&hl=en&oi=ao <br />
 - Dr. Sourav Kanti Addya <br />
 https://souravkaddya.in/ <br />
-- Mr. Keerthan Kumar T G<br />
+- Dr. Keerthan Kumar T G<br />
 https://scholar.google.com/citations?user=fW7bzK8AAAAJ&hl=en <br />
 - Dr Saumya Hegde <br />
 https://scholar.google.co.in/citations?user=WAyKHHwAAAAJ&hl=en <br />
