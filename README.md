@@ -15,9 +15,10 @@
 ### Prerequisites
 
 Python 3.7 & above.<br />
-PyCharm Community Edition 2022. <br />
+PyCharm Community Edition 2025.<br />
 Mininet for PN & VDCR topology generation.<br />
-Introduction about VNE problem can be found in below link:<br />
+Ryu an SDN controller for network management.<br />
+Introduction about the VNE problem can be found in the link below:<br />
 https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ## Features
@@ -43,6 +44,43 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 - First_Fit.py -> The Main file related to the First Fit baseline approach. <br />
 - LitE.py -> The Main file related to the LitE baseline approach. <br />
 - SCA-R.py -> The Main file related to the SCA-R baseline approach. <br />
+
+## How to Execute the Framework
+
+Follow the step-by-step instructions below to run the **ViDNex** framework:
+
+### 1. **Setup Mininet and Ryu**
+
+**Step 1.1**: Install **Mininet** (network emulator) and **Ryu** (SDN controller).<br />
+
+sudo apt-get update
+sudo apt-get install mininet
+pip install ryu
+
+**Step 1.2**: Start the Ryu controller.<br />
+ryu-manager ryu.app.simple_switch_13
+
+**Step 1.3**: Start Mininet with a sample topology.<br />
+sudo mn --topo single,3 --controller=remote
+
+### 2. **Prepare the Virtual Environment**
+**Step 2.1**: Create a virtual environment for Python dependencies.<br />
+python3 -m venv .venv
+source .venv/bin/activate
+
+**Step 2.2**: Install the required Python libraries.<br />
+pip install pulp
+pip install scikit-learn
+pip install networkx
+pip install matplotlib
+pip install numpy
+pip install psutil
+pip install openpyxl
+
+### 3. **Execute the manager.py for Network Topology Generation**
+**Step 3.1**: Generate the physical network (PN) using Mininet.<br />
+python3 manager.py
+
 
 
 ## Contributors
