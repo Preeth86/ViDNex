@@ -111,8 +111,8 @@ https://souravkaddya.in/ <br />
 - Dr. Keerthan Kumar T G<br />
 https://scholar.google.com/citations?user=fW7bzK8AAAAJ&hl=en <br />
 - Dr Saumya Hegde <br />
-https://scholar.google.co.in/citations?user=WAyKHHwAAAAJ&hl=en <br />
+https://ieeexplore.ieee.org/author/37928135100 <br />
 
 
 ## Contact
-If you have any questions, simply write a mail to  preetham(DOT)nagaraju(AT)gmail(DOT)com.
+If you have any questions, simply write an email to preetham(DOT)nagaraju(AT)gmail(DOT)com.
