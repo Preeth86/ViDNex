@@ -95,13 +95,13 @@ python3 manager.py
 
 ###  In manager.py:<br />
 
-- In the manager.py, select the PN and VM distribution, then select the VDCR distribution and then the number of VDCRs and finally the embedding algorithm ViDNex to start embedding <br />
+- In the manager.py, select the PN and VM distribution, then select the VDCR distribution, and then the number of VDCRs, and finally the embedding algorithm ViDNex to start embedding <br />
 
 - This file generates the pickle and JSON files, which contain all the information about physical network topologies, such as the number of hosts, links, and connectivity. It also includes values for each physical network resource.
 
 ### In the manager.py file, set the VDCR size such as [200, 400, 600, 800, 1000], and also by default, 10 iterations will be executed for each VDCR size in the iteration variable.<br />
 
-- Finally, once the manager.py runs. After successfully running, the Final embedding results are captured in Results.xlsx, which includes values for various performance metrics for all test scenarios and for every iteration.
+- Finally, once the manager.py runs. After successfully running, the final embedding results are captured in Results.xlsx, which includes values for various performance metrics for all test scenarios and for every iteration.
 
 ## Contributors
 - Mr. N Preetham <br />
