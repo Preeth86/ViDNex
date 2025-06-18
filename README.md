@@ -74,6 +74,9 @@ pip install openpyxl <br />
 **Step 2.3**: Start the Ryu controller.<br />
 ryu-manager ryu.app.simple_switch_13
 
+**Step 2.4**: Start the manager.<br />
+python3 manager.py
+
 ###  In VNR.py, we can set the various parameters related to Virtual data center requests(VDCRs).<br />
 
 - We can set the minimum and maximum number of VMs of VDCRs in the execute_vnr function. <br />
