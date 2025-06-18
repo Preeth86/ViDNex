@@ -1,4 +1,4 @@
-# ViDNex: Ranking-Based Virtual Data Center Embedding for Joint Load Balancing and Energy Efficiency in Next Generation Infrastructure
+# ViDNex: Ranking-Based Virtual Data Center Embedding for Load Balancing and Energy Efficiency in Next Generation Infrastructure
 
 ## Overview
 
